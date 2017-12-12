@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-12-10_1733",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "storem4",
       "title": "StoreM4",
@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 8,
+    "uniqCompNum": 9,
     "versionPublish": "4.5.2"
   },
   "pages": {
@@ -1382,6 +1382,22 @@
             ]
           },
           "_anchor": "shop1-2"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.casinocontroller.com/vegasfiesta/engine/EmbedGame/EmbedGame.php?mode=lobby&amp;game_id=&amp;anon=1&amp;lang=eb&amp;anonOnly=1\" target=\"_blank\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content11-8",
+          "_isUserblock": true,
+          "_cid": "qDAw7m6eEB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
