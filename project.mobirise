@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 7,
+    "uniqCompNum": 8,
     "versionPublish": "4.5.2"
   },
   "pages": {
@@ -1833,174 +1833,16 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".social-wrap > *": {
-              "display": "inline-block"
-            },
-            ".container-fluid": {
-              "padding": "0 3rem"
-            },
-            ".social-wrap": {
-              "padding": "0 1rem",
-              "color": "white",
-              "position": "absolute",
-              "width": "100%",
-              "bottom": "-10%",
-              "z-index": "3",
-              "opacity": "0",
-              "transition": "all 0.5s ease-in-out",
-              "-webkit-transition": "all 0.5s ease-in-out",
-              "-moz-transition": "all 0.5s ease-in-out",
-              "-o-transition": "all 0.5s ease-in-out"
-            },
-            ".mbr-social-likes": {
-              "span.btn": {
-                "padding": "0",
-                "padding-right": ".5rem",
-                "margin": "0"
-              }
-            },
-            ".block-wrap": {
-              "padding": "0",
-              "overflow": "hidden",
-              "&:hover .block-overlay": {
-                "opacity": ".5"
-              },
-              "&:hover .slide-text-wrap": {
-                "bottom": "0%",
-                "opacity": "1"
-              },
-              "&:hover .social-wrap": {
-                "bottom": "15%",
-                "opacity": "1"
-              }
-            },
-            ".block-overlay": {
-              "background-color": "@cardHover",
-              "position": "absolute",
-              "height": "100%",
-              "width": "100%",
-              "top": "0",
-              "left": "0",
-              "opacity": "0",
-              "-webkit-transition": "opacity 0.5s ease-in-out",
-              "-moz-transition": "opacity 0.5s ease-in-out",
-              "-o-transition": "opacity 0.5s ease-in-out",
-              "transition": "opacity 0.5s ease-in-out"
-            },
-            ".to-social": {
-              "padding": "0 1rem"
-            },
-            ".mbr-iconfont": {
-              "color": "#ffffff"
-            },
-            ".image-wrap": {
-              "position": "relative",
-              "img": {
-                "width": "100%",
-                "height": "100%",
-                "z-index": "0"
-              }
-            },
-            ".block-link": {
-              "z-index": "2",
-              "position": "absolute",
-              "height": "100%",
-              "width": "100%",
-              "top": "0",
-              "left": "0",
-              "font-size": "0"
-            },
-            ".slide-text-wrap": {
-              "position": "absolute",
-              "left": "0",
-              "width": "100%",
-              "bottom": "-20%",
-              "padding": "1rem 2rem",
-              "opacity": "0",
-              "border-top": "1px rgba(255, 255, 255, 0.2) solid",
-              "color": "#eee",
-              "z-index": "1",
-              "transition": "all 0.5s ease-in-out",
-              "-webkit-transition": "all 0.5s ease-in-out",
-              "-moz-transition": "all 0.5s ease-in-out",
-              "-o-transition": "all 0.5s ease-in-out"
-            },
-            ".slide-text": {
-              "position": "relative"
-            },
-            ".block-content": {
-              "padding": "0 2rem",
-              "text-align": "center",
-              "position": "absolute",
-              "top": "50%",
-              "transform": "translateY(-50%)",
-              "width": "100%",
-              "z-index": "1",
-              "transition": "all 0.5s ease-in-out",
-              "-webkit-transition": "all 0.5s ease-in-out",
-              "-moz-transition": "all 0.5s ease-in-out",
-              "-o-transition": "all 0.5s ease-in-out"
-            },
-            ".builderCard": {
-              ".slide-text-wrap": {
-                "z-index": "3 !important",
-                "bottom": "0%",
-                "opacity": "1"
-              },
-              ".social-wrap": {
-                "bottom": "15%",
-                "opacity": "1"
-              },
-              ".block-overlay": {
-                "border-top-left-radius": "40%",
-                "z-index": "1"
-              },
-              ".block-link": {
-                "display": "none"
-              },
-              ".block-content": {
-                "z-index": "3 !important"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".mbr-section-subtitle": {
-                "display": "none"
-              },
-              ".container-fluid": {
-                "padding": "0 1rem"
-              },
-              ".block-wrap:hover, .builderCard": {
-                ".block-content": {
-                  "top": "30%"
-                },
-                ".social-wrap": {
-                  "bottom": "25% !important"
-                }
-              },
-              ".row": {
-                "margin": "0"
-              },
-              ".slide-text-wrap": {
-                "padding": ".5rem 2rem"
-              }
-            }
+            "background-color": "@bgColor"
           },
-          "_name": "content10",
-          "_customHTML": "<section class=\"content10\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"SocialLikes\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value=\"http://www.mobirise.com\">\n        <input type=\"checkbox\" title=\"Show Social Icons\" name=\"showSocial\">\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Google+\" name=\"google\" checked condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Vkontakte\" name=\"vkontakte\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Odnoklassniki\" name=\"odnoklassniki\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Card Hover Color\" name=\"cardHover\" value=\"#ffef00\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center flip-card\">\n            <div class=\"col-12 col-md-10 col-xl-7 block-wrap\">\n                <a class=\"block-link\" href=\"{{linkValue}}\"></a>\n                <div class=\"image-wrap\">\n                    <a href=\"https://www.casinocontroller.com/vegasfiesta/engine/EmbedGame/EmbedGame.php?mode=lobby&game_id=&anon=1&lang=eb&anonOnly=1\" id=\"test\" onclick=\"document.getElementById('test').frameBorder=1\"> Click Here </a>\n<iframe src=\"https://www.casinocontroller.com/vegasfiesta/engine/EmbedGame/EmbedGame.php?mode=lobby&game_id=&anon=1&lang=eb&anonOnly=1\" frameborder=\"0\" name=\"iframecasino\" id=\"casino\" width=\"1024\" height=\"768\"></iframe>\n                    <div class=\"block-overlay\"></div>\n                </div>\n                <div class=\"block-content\">\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-white\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></h3>\n                    <h3 class=\"mbr-section-title mbr-fonts-style mbr-bold mbr-white pt-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"></h3>\n                </div>\n                <div class=\"slide-text-wrap align-center\">\n                  <span mbr-text class=\"mbr-fonts-style mbr-bold mbr-white slide-text\" data-app-selector=\".slide-text, .slide-text-wrap\" mbr-theme-style=\"display-7\"></span>\n                </div>\n                <div class=\"social-wrap align-center\" mbr-if=\"showSocial\">\n                    <span mbr-text class=\"mbr-fonts-style mbr-bold mbr-white social-text\" data-app-selector=\".social-text, .social-wrap\" mbr-theme-style=\"display-7\">SHARE</span>\n                    <span mbr-icon class=\"mbr-iconfont to-social mbri-right\"></span>\n                    <div class=\"mbr-social-likes\" data-counters=\"false\">\n                        <span mbr-if=\"facebook\" class=\"btn facebook\" title=\"Share link on Facebook\">\n                            <i class=\"socicon socicon-facebook\"></i>\n                        </span>\n                        <span mbr-if=\"twitter\" class=\"btn twitter\" title=\"Share link on Twitter\">\n                            <i class=\"socicon socicon-twitter\"></i>\n                        </span>\n                        <span mbr-if=\"google\" class=\"btn plusone\" title=\"Share link on Google+\">\n                            <i class=\"socicon socicon-googleplus\"></i>\n                        </span>\n                        <span mbr-if=\"vkontakte\" class=\"btn vkontakte\" title=\"Share link on VKontakte\">\n                            <i class=\"socicon socicon-vkontakte\"></i>\n                        </span>\n                        <span mbr-if=\"odnoklassniki\" class=\"btn odnoklassniki\" title=\"Share link on Odnoklassniki\">\n                            <i class=\"socicon socicon-odnoklassniki\"></i>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qDAk1YNRnd",
-          "_anchor": "content10-6",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.casinocontroller.com/vegasfiesta/engine/EmbedGame/EmbedGame.php?mode=lobby&amp;game_id=&amp;anon=1&amp;lang=eb&amp;anonOnly=1\" target=\"_blank\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qDAv0mbW91",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content11-7"
         }
       ]
     }
