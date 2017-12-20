@@ -1427,7 +1427,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #232323;
+  background-color: #ffef00;
 }
 .cid-qDq2oF16u8 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1472,9 +1472,6 @@ body {
   opacity: 0;
   right: 50%;
   transition: all .2s;
-}
-.cid-qDq2oF16u8 .navbar-dropdown {
-  position: fixed;
 }
 .cid-qDq2oF16u8 a.nav-link {
   display: flex;
@@ -1540,7 +1537,7 @@ body {
   padding: 0 3rem;
 }
 .cid-qDq2qkYWsa .animated-element {
-  color: #f2631a;
+  color: #ffffff;
 }
 @media (max-width: 767px) {
   .cid-qDq2qkYWsa .container-fluid {
@@ -1552,17 +1549,12 @@ body {
  Animate.CSS By Dan Eden
 ******************************************/
 }
-#custom-html-f body {
-  height: 110%;
-  background-color: #f2f2f2;
-}
 #custom-html-f .portfolio-grid {
   list-style: none;
   padding: 30px;
   margin: 0px auto;
   text-align: center;
   width: 100%;
-  background-color: #ffff;
 }
 #custom-html-f .portfolio-grid li {
   display: inline-block;
@@ -1571,7 +1563,6 @@ body {
   vertical-align: center;
   horizontal-align: middle;
   width: 212px;
-  background-color: #ffff;
 }
 #custom-html-f .portfolio-grid li > a,
 #custom-html-f .portfolio-grid li > a img {
@@ -1584,12 +1575,10 @@ body {
   -moz-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  background-color: #ffff;
 }
 #custom-html-f .portfolio-grid li > a img:hover {
   border-radius: 50%;
   z-index: 9999;
-  background-color: #ffff;
 }
 #custom-html-f .animated {
   -webkit-animation-duration: 1s;
@@ -2146,9 +2135,6 @@ body {
   right: 50%;
   transition: all .2s;
 }
-.cid-qDq2oF16u8 .navbar-dropdown {
-  position: fixed;
-}
 .cid-qDq2oF16u8 a.nav-link {
   display: flex;
   align-items: center;
@@ -2220,7 +2206,7 @@ body {
   width: 3rem;
   height: 3px;
   display: inline-block;
-  color: #ADAC9E;
+  color: #2d10a3;
 }
 .cid-qDFXURZkX3 .title-wrap {
   padding-left: 0;
@@ -2234,7 +2220,7 @@ body {
   height: 780px;
   z-index: 10;
   margin-top: 1.6rem;
-  background-color: #ADAC9E;
+  background-color: #2d10a3;
   padding: 2rem;
   border-radius: 15px;
   margin-bottom: 3rem;
@@ -2255,7 +2241,7 @@ body {
   width: 1024px;
   height: 768px;
   margin-top: 1.6rem;
-  background-color: #ffef00;
+  background-color: #2d10a3;
   padding: 2rem;
   z-index: 10;
   border-radius: 15px;
@@ -2603,9 +2589,6 @@ body {
   opacity: 0;
   right: 50%;
   transition: all .2s;
-}
-.cid-qDq2oF16u8 .navbar-dropdown {
-  position: fixed;
 }
 .cid-qDq2oF16u8 a.nav-link {
   display: flex;
