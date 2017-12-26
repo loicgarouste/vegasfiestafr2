@@ -1241,12 +1241,10 @@ body {
 .cid-qDq2oF16u8 .navbar .mbr-overlay {
   transition: all .3s;
   background: #ffffff;
-  background: linear-gradient(#ffffff, #ffffff);
 }
 .cid-qDq2oF16u8 .navbar.opened .mbr-overlay {
   transition: all .3s;
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar .dropdown-item {
   padding: .25rem 1.5rem;
@@ -1363,7 +1361,6 @@ body {
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .mbr-overlay {
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
@@ -1668,8 +1665,8 @@ body {
   animation-name: flipInX;
 }
 .cid-qEPnoAUdha {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-qEPnoAUdha .container-fluid {
@@ -1693,6 +1690,81 @@ body {
   }
   .cid-qEPnoAUdha .container-fluid {
     padding: 0 1rem;
+  }
+}
+.cid-qEUavQR4dL {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/abstract-dots-hd-image-2000x1250.jpg");
+}
+.cid-qEUavQR4dL .container-fluid {
+  padding: 3rem;
+}
+.cid-qEUavQR4dL .underline {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.cid-qEUavQR4dL .underline .line {
+  width: 3rem;
+  height: 3px;
+  display: inline-block;
+  color: #2d10a3;
+}
+.cid-qEUavQR4dL .title-wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+.cid-qEUavQR4dL .iframe-wrap {
+  width: 100%;
+}
+.cid-qEUavQR4dL .iframe-wrap iframe {
+  width: 1030px;
+  height: 780px;
+  z-index: 10;
+  margin-top: 1.6rem;
+  background-color: #2d10a3;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  transition: all 0.5s ease-in-out;
+}
+.cid-qEUavQR4dL .iframe-wrap iframe:hover {
+  transform: scale(1.05);
+}
+.cid-qEUavQR4dL .content-section {
+  padding: 3rem;
+}
+.cid-qEUavQR4dL .btn {
+  margin-top: 1rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+.cid-qEUavQR4dL .card-wrapper {
+  width: 1024px;
+  height: 768px;
+  margin-top: 1.6rem;
+  background-color: #2d10a3;
+  padding: 2rem;
+  z-index: 10;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+@media (max-width: 1200px) {
+  .cid-qEUavQR4dL .container-fluid {
+    padding: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .cid-qEUavQR4dL .container-fluid {
+    padding: 0rem;
+  }
+  .cid-qEUavQR4dL .card-wrapper {
+    margin-bottom: 3rem;
+    border-radius: 15px;
+  }
+  .cid-qEUavQR4dL .title-wrap {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 .cid-qDLKkUSD6k {
@@ -1944,12 +2016,10 @@ body {
 .cid-qDq2oF16u8 .navbar .mbr-overlay {
   transition: all .3s;
   background: #ffffff;
-  background: linear-gradient(#ffffff, #ffffff);
 }
 .cid-qDq2oF16u8 .navbar.opened .mbr-overlay {
   transition: all .3s;
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar .dropdown-item {
   padding: .25rem 1.5rem;
@@ -2066,7 +2136,6 @@ body {
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .mbr-overlay {
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
@@ -2558,12 +2627,10 @@ body {
 .cid-qDq2oF16u8 .navbar .mbr-overlay {
   transition: all .3s;
   background: #ffffff;
-  background: linear-gradient(#ffffff, #ffffff);
 }
 .cid-qDq2oF16u8 .navbar.opened .mbr-overlay {
   transition: all .3s;
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar .dropdown-item {
   padding: .25rem 1.5rem;
@@ -2680,7 +2747,6 @@ body {
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .mbr-overlay {
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
@@ -3162,12 +3228,10 @@ body {
 .cid-qDq2oF16u8 .navbar .mbr-overlay {
   transition: all .3s;
   background: #ffffff;
-  background: linear-gradient(#ffffff, #ffffff);
 }
 .cid-qDq2oF16u8 .navbar.opened .mbr-overlay {
   transition: all .3s;
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar .dropdown-item {
   padding: .25rem 1.5rem;
@@ -3284,7 +3348,6 @@ body {
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .mbr-overlay {
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
@@ -3648,12 +3711,10 @@ body {
 .cid-qDq2oF16u8 .navbar .mbr-overlay {
   transition: all .3s;
   background: #ffffff;
-  background: linear-gradient(#ffffff, #ffffff);
 }
 .cid-qDq2oF16u8 .navbar.opened .mbr-overlay {
   transition: all .3s;
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar .dropdown-item {
   padding: .25rem 1.5rem;
@@ -3770,7 +3831,6 @@ body {
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .mbr-overlay {
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
@@ -4262,12 +4322,10 @@ body {
 .cid-qDq2oF16u8 .navbar .mbr-overlay {
   transition: all .3s;
   background: #ffffff;
-  background: linear-gradient(#ffffff, #ffffff);
 }
 .cid-qDq2oF16u8 .navbar.opened .mbr-overlay {
   transition: all .3s;
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar .dropdown-item {
   padding: .25rem 1.5rem;
@@ -4384,7 +4442,6 @@ body {
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .mbr-overlay {
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
@@ -4859,12 +4916,10 @@ body {
 .cid-qDq2oF16u8 .navbar .mbr-overlay {
   transition: all .3s;
   background: #ffffff;
-  background: linear-gradient(#ffffff, #ffffff);
 }
 .cid-qDq2oF16u8 .navbar.opened .mbr-overlay {
   transition: all .3s;
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar .dropdown-item {
   padding: .25rem 1.5rem;
@@ -4981,7 +5036,6 @@ body {
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .mbr-overlay {
   background: #ffffff !important;
-  background: linear-gradient(#ffffff, #ffffff) !important;
 }
 .cid-qDq2oF16u8 .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
