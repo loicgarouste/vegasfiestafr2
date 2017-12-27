@@ -2251,13 +2251,15 @@ body {
   padding-right: 0;
 }
 .cid-qDFXURZkX3 .iframe-wrap {
+  position: relative;
+  height: 100%;
   width: 100%;
 }
 .cid-qDFXURZkX3 .iframe-wrap iframe {
-  width: 1030px;
-  height: 780px;
-  z-index: 10;
-  margin-top: 1.6rem;
+  width: 1024px;
+  height: 768px;
+  z-index: 1;
+  margin-top: 0rem;
   background-color: #2d10a3;
   padding: 2rem;
   border-radius: 15px;
