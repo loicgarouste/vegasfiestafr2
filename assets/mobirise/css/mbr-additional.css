@@ -5979,8 +5979,11 @@ body {
   padding: 1.2rem 1.6rem;
   vertical-align: middle;
 }
+.cid-qFLrKA3FfD table.table {
+  background: #ffffff;
+}
 .cid-qFLrKA3FfD tr:hover {
-  background-color: #efefef !important;
+  background-color: #44f7b3 !important;
 }
 .cid-qFLrKA3FfD .table-striped tbody tr:nth-of-type(odd) {
   background: none;
@@ -6045,10 +6048,16 @@ body {
   }
 }
 .cid-qFLrKA3FfD .body-item {
-  text-align: center;
+  text-align: right;
 }
 .cid-qFLrKA3FfD .head-item {
   color: #000000;
+  text-align: right;
+}
+.cid-qIvXINpdgg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
 .cid-qDLKkUSD6k {
   padding-top: 45px;
