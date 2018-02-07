@@ -156,16 +156,16 @@ body {
 .btn-primary,
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #ffef00;
-  border-color: #ffef00;
-  color: #ffffff !important;
+  background-color: #ffef00 !important;
+  border-color: #ffef00 !important;
+  color: #000000 !important;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus {
-  color: #ffffff !important;
-  background-color: #b3a700;
-  border-color: #b3a700;
+  color: #000000 !important;
+  background-color: #b3a700 !important;
+  border-color: #b3a700 !important;
 }
 .btn-primary:hover:before,
 .btn-primary:focus:before,
@@ -174,7 +174,7 @@ body {
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
-  color: #ffffff !important;
+  color: #000000 !important;
   background-color: #b3a700 !important;
   border-color: #b3a700 !important;
 }
@@ -201,16 +201,16 @@ body {
 .btn-secondary,
 .btn-secondary:active,
 .btn-secondary.active {
-  background-color: #a38dfd;
-  border-color: #a38dfd;
+  background-color: #a38dfd !important;
+  border-color: #a38dfd !important;
   color: #ffffff !important;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary.focus {
   color: #ffffff !important;
-  background-color: #6642fc;
-  border-color: #6642fc;
+  background-color: #6642fc !important;
+  border-color: #6642fc !important;
 }
 .btn-secondary:hover:before,
 .btn-secondary:focus:before,
@@ -246,16 +246,16 @@ body {
 .btn-info,
 .btn-info:active,
 .btn-info.active {
-  background-color: #85bf31;
-  border-color: #85bf31;
+  background-color: #85bf31 !important;
+  border-color: #85bf31 !important;
   color: #ffffff !important;
 }
 .btn-info:hover,
 .btn-info:focus,
 .btn-info.focus {
   color: #ffffff !important;
-  background-color: #5b8221;
-  border-color: #5b8221;
+  background-color: #5b8221 !important;
+  border-color: #5b8221 !important;
 }
 .btn-info:hover:before,
 .btn-info:focus:before,
@@ -291,16 +291,16 @@ body {
 .btn-success,
 .btn-success:active,
 .btn-success.active {
-  background-color: #3200ff;
-  border-color: #3200ff;
+  background-color: #3200ff !important;
+  border-color: #3200ff !important;
   color: #ffffff !important;
 }
 .btn-success:hover,
 .btn-success:focus,
 .btn-success.focus {
   color: #ffffff !important;
-  background-color: #2300b3;
-  border-color: #2300b3;
+  background-color: #2300b3 !important;
+  border-color: #2300b3 !important;
 }
 .btn-success:hover:before,
 .btn-success:focus:before,
@@ -336,16 +336,16 @@ body {
 .btn-warning,
 .btn-warning:active,
 .btn-warning.active {
-  background-color: #fd3525;
-  border-color: #fd3525;
+  background-color: #fd3525 !important;
+  border-color: #fd3525 !important;
   color: #ffffff !important;
 }
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning.focus {
   color: #ffffff !important;
-  background-color: #d41102;
-  border-color: #d41102;
+  background-color: #d41102 !important;
+  border-color: #d41102 !important;
 }
 .btn-warning:hover:before,
 .btn-warning:focus:before,
@@ -381,16 +381,16 @@ body {
 .btn-danger,
 .btn-danger:active,
 .btn-danger.active {
-  background-color: #ff7524;
-  border-color: #ff7524;
+  background-color: #ff7524 !important;
+  border-color: #ff7524 !important;
   color: #ffffff !important;
 }
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger.focus {
   color: #ffffff !important;
-  background-color: #d64f00;
-  border-color: #d64f00;
+  background-color: #d64f00 !important;
+  border-color: #d64f00 !important;
 }
 .btn-danger:hover:before,
 .btn-danger:focus:before,
@@ -426,16 +426,16 @@ body {
 .btn-black,
 .btn-black:active,
 .btn-black.active {
-  background-color: #333333;
-  border-color: #333333;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
   color: #ffffff !important;
 }
 .btn-black:hover,
 .btn-black:focus,
 .btn-black.focus {
   color: #ffffff !important;
-  background-color: #0d0d0d;
-  border-color: #0d0d0d;
+  background-color: #0d0d0d !important;
+  border-color: #0d0d0d !important;
 }
 .btn-black:hover:before,
 .btn-black:focus:before,
@@ -465,22 +465,22 @@ body {
   transform: scale(0);
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
-  background-color: #d4d4d4;
-  border-color: #d4d4d4;
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
 }
 .btn-white,
 .btn-white:active,
 .btn-white.active {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  color: #ffffff !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #808080 !important;
 }
 .btn-white:hover,
 .btn-white:focus,
 .btn-white.focus {
-  color: #ffffff !important;
-  background-color: #d4d4d4;
-  border-color: #d4d4d4;
+  color: #808080 !important;
+  background-color: #d9d9d9 !important;
+  border-color: #d9d9d9 !important;
 }
 .btn-white:hover:before,
 .btn-white:focus:before,
@@ -489,9 +489,9 @@ body {
 }
 .btn-white.disabled,
 .btn-white:disabled {
-  color: #ffffff !important;
-  background-color: #d4d4d4 !important;
-  border-color: #d4d4d4 !important;
+  color: #808080 !important;
+  background-color: #d9d9d9 !important;
+  border-color: #d9d9d9 !important;
 }
 .btn-white,
 .btn-white:active,
@@ -537,7 +537,7 @@ body {
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus {
-  color: #ffffff !important;
+  color: #000000 !important;
   background-color: #ffef00;
   border-color: #ffef00;
 }
@@ -548,7 +548,7 @@ body {
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
-  color: #ffffff !important;
+  color: #000000 !important;
   background-color: #ffef00 !important;
   border-color: #ffef00 !important;
 }
@@ -929,6 +929,10 @@ a.text-black:focus {
 .alert-danger {
   background-color: #ff7524;
 }
+.mbr-section-btn a.btn:not(.btn-form):hover,
+.mbr-section-btn a.btn:not(.btn-form):focus {
+  box-shadow: none !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #ffef00;
   border-color: #ffef00;
@@ -1144,6 +1148,9 @@ html,
 body {
   height: auto;
   min-height: 100vh;
+}
+.dropup .dropdown-toggle::after {
+  display: none;
 }
 .cid-qDq2oF16u8 .dropdown-item:before {
   font-family: MobiriseIcons !important;
