@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NOUVEAU SITE",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "storem4",
       "title": "StoreM4",
@@ -818,8 +818,8 @@
       "settings": {
         "title": "SE CONNECTER",
         "order": 9,
-        "header_custom": "<script type=\"text/javascript\">\n<!--\nif (screen.width <= 699) {\ndocument.location = \"http://m.lecasinonet.com\";\n}\n//-->\n</script>",
-        "footer_custom": "<script language=javascript>\n<!--\nif ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {\n   location.replace(\"http://m.lecasinonet.com\");\n}\n-->\n</script>",
+        "header_custom": "<script type=\"text/javascript\">\n<!--\nif (screen.width <= 699) {\ndocument.location = \"http://m.vegasfiesta.com/fr/?btag=\";\n}\n//-->\n</script>",
+        "footer_custom": "<script language=javascript>\n<!--\nif ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {\n   location.replace(\"http://m.vegasfiesta.com/fr/?btag=\");\n}\n-->\n</script>",
         "html_before": ""
       },
       "components": [
@@ -1134,7 +1134,8 @@
       "settings": {
         "title": "S INSCRIRE",
         "order": 8,
-        "footer_custom": ""
+        "footer_custom": "",
+        "header_custom": ""
       },
       "components": [
         {
