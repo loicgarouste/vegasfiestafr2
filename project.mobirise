@@ -818,7 +818,7 @@
       "settings": {
         "title": "SE CONNECTER",
         "order": 9,
-        "header_custom": "<script type=\"text/javascript\">\n<!--\nif (screen.width <= 699) {\nwindow.location(\"http://go.vegasfiesta.fr/?btag=\");\n}\n//-->\n</script>",
+        "header_custom": "<script type=\"text/javascript\">\n<!--\nif (screen.width <= 699) {\nlocation.replace(\"http://go.vegasfiesta.fr/?btag=\");\n}\n//-->\n</script>",
         "footer_custom": "<script language=javascript>\n<!--\nif ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {\n   location.replace(\"http://go.vegasfiesta.fr/?btag=\");\n}\n-->\n</script>",
         "html_before": ""
       },
