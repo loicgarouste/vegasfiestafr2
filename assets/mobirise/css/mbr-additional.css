@@ -1858,12 +1858,12 @@ body {
   background: linear-gradient(90deg, #5a31fb, #000000);
 }
 .cid-qFARV3Cjvc {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-image: url("../../../assets/images/backgrnd-2000x1325.png");
 }
 .cid-qFARV3Cjvc .container-fluid {
-  padding: 4rem;
+  padding: 45px;
 }
 .cid-qFARV3Cjvc .underline {
   padding-top: 0rem;
@@ -1882,8 +1882,17 @@ body {
 .cid-qFARV3Cjvc .iframe-wrap {
   width: 1024px;
   height: 768px;
+  z-index: 0;
+  margin-top: 0rem;
+  padding: 0rem;
+  border-radius: 5px;
+  margin-bottom: 0rem;
+  transition: all 0.5s ease-in-out;
 }
-.cid-qFARV3Cjvc .iframe-wrap iframe {
+.cid-qFARV3Cjvc .iframe-wrap:hover {
+  transform: scale(1.05);
+}
+.cid-qFARV3Cjvc iframe {
   width: 1024px;
   height: 768px;
   z-index: 0;
@@ -1893,11 +1902,11 @@ body {
   margin-bottom: 0rem;
   transition: all 0.5s ease-in-out;
 }
-.cid-qFARV3Cjvc .iframe-wrap iframe:hover {
-  transform: scale(1);
+.cid-qFARV3Cjvc iframe:hover {
+  transform: scale(1.05);
 }
 .cid-qFARV3Cjvc .content-section {
-  padding: -4rem;
+  padding: 0rem;
 }
 .cid-qFARV3Cjvc .btn {
   margin-top: 4rem;

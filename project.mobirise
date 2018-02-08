@@ -825,19 +825,19 @@
       "components": [
         {
           "_styles": {
-            "padding-top": "(@paddingTop * 8px)",
-            "padding-bottom": "(@paddingBottom * 8px)",
+            "padding-top": "(@paddingTop * 10px)",
+            "padding-bottom": "(@paddingBottom * 10px)",
             "& when (@bg-type = 'color')": {
               "background": "@bg-value",
               "& when (@gradientBg)": {
-                "background": "linear-gradient(0deg, #adac9e)"
+                "background": "linear-gradient(50deg, #adac9e)"
               }
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
             ".container-fluid": {
-              "padding": "4rem"
+              "padding": "45px"
             },
             ".underline": {
               "padding-top": "0rem",
@@ -856,22 +856,31 @@
             ".iframe-wrap": {
               "width": "1024px",
               "height": "768px",
-              "iframe": {
-                "width": "1024px",
-                "height": "768px",
-                "z-index": "0",
-                "margin-top": "0rem",
-                "padding": "0rem",
-                "border-radius": "5px",
-                "margin-bottom": "0rem",
-                "&:hover": {
-                  "transform": "scale(1)"
-                },
-                "transition": "all 0.5s ease-in-out"
-              }
+              "z-index": "0",
+              "margin-top": "0rem",
+              "padding": "0rem",
+              "border-radius": "5px",
+              "margin-bottom": "0rem",
+              "&:hover": {
+                "transform": "scale(1.05)"
+              },
+              "transition": "all 0.5s ease-in-out"
+            },
+            "iframe": {
+              "width": "1024px",
+              "height": "768px",
+              "z-index": "0",
+              "margin-top": "0rem",
+              "padding": "0rem",
+              "border-radius": "5px",
+              "margin-bottom": "0rem",
+              "&:hover": {
+                "transform": "scale(1.05)"
+              },
+              "transition": "all 0.5s ease-in-out"
             },
             ".content-section": {
-              "padding": "-4rem"
+              "padding": "0rem"
             },
             ".btn": {
               "margin-top": "4rem",
