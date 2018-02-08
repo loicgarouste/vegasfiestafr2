@@ -837,7 +837,7 @@
               "background-image": "url(@bg-value)"
             },
             ".container-fluid": {
-              "padding": "3rem"
+              "padding": "4rem"
             },
             ".underline": {
               "padding-top": "0rem",
@@ -871,7 +871,7 @@
               }
             },
             ".content-section": {
-              "padding": "0rem"
+              "padding": "-4rem"
             },
             ".btn": {
               "margin-top": "4rem",
