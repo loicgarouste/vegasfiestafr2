@@ -1890,7 +1890,7 @@ body {
   padding: 0rem;
   border-radius: 5px;
   margin-bottom: 0rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0s ease-in-out;
 }
 .cid-qFARV3Cjvc .iframe-wrap:hover {
   transform: scale(1);
