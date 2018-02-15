@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NOUVEAU SITE",
-    "currentPage": "page2.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "storem4",
       "title": "StoreM4",
@@ -22,7 +22,7 @@
         "display7Font": "Comfortaa",
         "display7Size": 1.1,
         "display4Font": "Comfortaa",
-        "display4Size": "0.8",
+        "display4Size": "0.4",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
@@ -544,7 +544,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#3200ff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info\" href=\"http://vegasfiesta.fr/page1.html\" target=\"_blank\">SE CONNECTER</a>\n                    <a class=\"btn btn-success\" href=\"http://get.vegasfiesta.fr/get/wd/4131579\">TELECHARGER</a> <a class=\"btn btn-success\" href=\"http://vegasfiesta.fr/page2.html\" target=\"_blank\">S'INSCRIRE</a> <a class=\"btn btn-success\" href=\"page8.html#header3-1f\" target=\"_blank\">TOURNOIS</a> <a class=\"btn btn-success\" href=\"page5.html\" target=\"_blank\">PROMOTIONS</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#3200ff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"http://vegasfiesta.fr/page1.html\" target=\"_blank\">SE CONNECTER</a>\n                    <a class=\"btn btn-success\" href=\"http://get.vegasfiesta.fr/get/wd/4131579\">TELECHARGER</a> <a class=\"btn btn-success\" href=\"http://vegasfiesta.fr/page2.html\" target=\"_blank\">S'INSCRIRE</a> <a class=\"btn btn-success\" href=\"page8.html#header3-1f\" target=\"_blank\">TOURNOIS</a> <a class=\"btn btn-success\" href=\"page5.html\" target=\"_blank\">PROMOTIONS</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qFcA9nv3HS",
           "_anchor": "content11-14",
           "_PHPplaceholders": [],
@@ -862,7 +862,7 @@
               "border-radius": "5px",
               "margin-bottom": "0rem",
               "&:hover": {
-                "transform": "scale(1.05)"
+                "transform": "scale(1)"
               },
               "transition": "all 0.5s ease-in-out"
             },
@@ -875,7 +875,7 @@
               "border-radius": "5px",
               "margin-bottom": "0rem",
               "&:hover": {
-                "transform": "scale(1.05)"
+                "transform": "scale(1)"
               },
               "transition": "all 0.5s ease-in-out"
             },

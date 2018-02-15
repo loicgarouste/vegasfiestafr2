@@ -30,7 +30,7 @@ body {
 }
 .display-4 {
   font-family: 'Comfortaa', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.4rem;
 }
 .display-5 {
   font-family: 'Comfortaa', sans-serif;
@@ -57,9 +57,9 @@ body {
     line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.64rem;
-    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.32rem;
+    font-size: calc( 0.79rem + (0.4 - 0.79) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.79rem + (0.4 - 0.79) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.28rem;
@@ -1893,7 +1893,7 @@ body {
   transition: all 0.5s ease-in-out;
 }
 .cid-qFARV3Cjvc .iframe-wrap:hover {
-  transform: scale(1.05);
+  transform: scale(1);
 }
 .cid-qFARV3Cjvc iframe {
   width: 1024px;
@@ -1906,7 +1906,7 @@ body {
   transition: all 0.5s ease-in-out;
 }
 .cid-qFARV3Cjvc iframe:hover {
-  transform: scale(1.05);
+  transform: scale(1);
 }
 .cid-qFARV3Cjvc .content-section {
   padding: 0rem;
