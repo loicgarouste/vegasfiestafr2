@@ -1863,7 +1863,8 @@ body {
 .cid-qFARV3Cjvc {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-image: url("../../../assets/images/backgrnd-2000x1325.png");
+  background: #000828;
+  background: linear-gradient(50deg, #adac9e);
 }
 .cid-qFARV3Cjvc .container-fluid {
   padding: 45px;
@@ -1873,8 +1874,8 @@ body {
   padding-bottom: 0rem;
 }
 .cid-qFARV3Cjvc .underline .line {
-  width: 0.5px;
-  height: 0.5px;
+  width: 0.0px;
+  height: 0.0px;
   display: block;
   color: #2d10a3;
 }
@@ -1883,8 +1884,8 @@ body {
   padding-right: 0;
 }
 .cid-qFARV3Cjvc .iframe-wrap {
-  width: 1024px;
-  height: 768px;
+  width: 1028px;
+  height: 772px;
   z-index: 0;
   margin-top: 0rem;
   padding: 0rem;
@@ -1896,14 +1897,14 @@ body {
   transform: scale(1);
 }
 .cid-qFARV3Cjvc iframe {
-  width: 1024px;
-  height: 768px;
+  width: 1028px;
+  height: 772px;
   z-index: 0;
   margin-top: 0rem;
   padding: 0rem;
   border-radius: 5px;
   margin-bottom: 0rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0s ease-in-out;
 }
 .cid-qFARV3Cjvc iframe:hover {
   transform: scale(1);
@@ -1917,16 +1918,16 @@ body {
   margin-right: 4rem;
 }
 .cid-qFARV3Cjvc .card-wrapper {
-  width: 1024px;
-  height: 768px;
-  margin-top: 1.6rem;
-  background-color: #70d10f;
+  width: 1028px;
+  height: 772px;
+  margin-top: 1.4rem;
+  background-color: #ffffff;
   padding: 2rem;
   z-index: 10;
   border-radius: 15px;
   margin-bottom: 3rem;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1028px) {
   .cid-qFARV3Cjvc .container-fluid {
     padding: 0rem;
   }
