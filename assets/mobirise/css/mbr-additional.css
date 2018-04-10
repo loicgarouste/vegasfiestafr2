@@ -2479,6 +2479,12 @@ body {
     left: -1rem;
   }
 }
+#custom-html-1o {
+  /* Type valid CSS here */
+}
+#custom-html-1o .my-image {
+  width: 100%;
+}
 .cid-qDGM3Ylfzv {
   padding-top: 120px;
   padding-bottom: 40px;
